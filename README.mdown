@@ -1,8 +1,5 @@
 #[objectDiff](http://nv.github.com/objectDiff.js/)
 
-[objectdiff on npm](http://search.npmjs.org/#/objectdiff)
-
-
 ## objectDiff.diff(objectA, objectB)
 
 <pre>
