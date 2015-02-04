@@ -1,6 +1,6 @@
 
 {
-  "name": "objectDiff-tiny",
+  "name": "object-diff-tiny",
   "main": "objectDiff.js",
   "version": "1.1.1",
   "homepage": "https://github.com/JasonStoltz/objectDiff.js",
