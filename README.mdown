@@ -41,5 +41,5 @@ objectDiff.diff({z: {x: 1}}, {z: {y: 2}})
 
 ## Jasmine integration
 
-objectDiff provides `toEqualProperties` and `toEqualOwnProperties` matchers for [Jasmine](http://pivotal.github.com/jasmine/).
+objectDiff provides `toEqualProperties` matchers for [Jasmine](http://pivotal.github.com/jasmine/).
 See [example spec](http://nv.github.com/objectDiff.js/spec/).
