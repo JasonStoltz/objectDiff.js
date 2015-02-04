@@ -39,25 +39,6 @@ objectDiff.diff({z: {x: 1}}, {z: {y: 2}})
 }
 </pre>
 
-
-## objectDiff.diffOwnProperties(objectA, objectB)
-
-Same as objectDiff.diff, but compares only objects' own properties
-
-<pre>
-function A(){}
-A.prototype.x = 1
-objectDiff.diff({x: 1}, new A)
--> {changed: "equal", value: {x: 1}}
-
-objectDiff.diffOwnProperties({x: 1}, new A)
--> {changed: "object change", value: {x: {changed: "removed", value: 1}}}
-</pre>
-
-## objectDiff.convertToXMLString(diffObject)
-
-Used on [the demo page](http://nv.github.com/objectDiff.js/).
-
 ## Jasmine integration
 
 objectDiff provides `toEqualProperties` and `toEqualOwnProperties` matchers for [Jasmine](http://pivotal.github.com/jasmine/).
